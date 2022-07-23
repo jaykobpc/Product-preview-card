@@ -60,7 +60,7 @@ span {
 
 /** container **/
 .container {
-    width: 580px;
+    width: 570px;
     display: flex;
     flex-direction: row;
     overflow: hidden;
@@ -96,12 +96,12 @@ span {
 
 .container__context__title {
     font-family: var(--Font-Fraunces);
-    font-size: 34px;
+    font-size: 28px;
     margin: 5px 0;
 }
 
 .container__context__text {
-    font-size: 14px;
+    font-size: 13px;
     margin: 5px 0;
     color: var(--Dark-grayish-blue);
 }
@@ -116,12 +116,12 @@ span {
 .container__context__title--green {
     color: var(--Dark-cyan);
     font-family: var(--Font-Fraunces);
-    font-size: 34px;
+    font-size: 26px;
     margin: 5px 10px 5px 0;
 }
 
 .container__context__text--striked {
-    font-size: 14px;
+    font-size: 13px;
     color: var(--Dark-grayish-blue);
 }
 
@@ -132,7 +132,7 @@ span {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-radius: 6px;
+    border-radius: 8px;
     height: 48px;
     cursor: pointer;
     transition: background-color 0.3s ease;
